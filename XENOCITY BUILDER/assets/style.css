@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+h1{
+    text-align: center;
+}
+#instructions{
+    z-index: 10;
+    position: absolute;
+    margin: 2em;
+    background: yellow;
+    padding: .5%;
+    width: 10vw;
+    border-radius: 5%;
+    opacity: .7;
+
+}
+
+
+#container-logo{
+    /* z-index: 1; */
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    padding: 0%;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+}
+
+#website-logo{
+    position: absolute;
+    z-index: 1;
+    top: 2%;
+    right: 2%;
+    width: 10vw;
+}
+/* #container-logo:hover{
+    opacity: 0;
+} */
+
+
+#container {
+    display: none;
+    position: absolute;
+    /* margin-left: 5vw; */
+    /* margin-top: 1%; */
+    align-items: center;
+    /* gap: 4vw; */
+    /* padding: .5em; */
+    background-color: rgba(0, 0, 0, .85);
+    /* opacity: .6; */
+    /* border: 2px solid white; */
+    /* border-style: solid; */
+
+
+    /* height: 10vh; */
+    width: 0%;
+    /* height: 0%; */
+    bottom: 0%;
+    /* display: none; */
+    /* transition: .5s all ease-in-out; */
+    border: 2px solid yellow;
+    border-left-width: 15px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+}
+
+#container:hover {
+    width: 100%;
+    /* display: flex; */
+    cursor: pointer;
+    padding: 1em;
+    /* border: 2px solid white;
+    border-left-width: 15px;
+    border-bottom-width: 0px;
+    border-right-width: 0px; */
+    z-index: 11;
+    
+}
+
+button {
+    /* width: 10vw; */
+    background-color: transparent;
+    /* border: 1px solid red; */
+    /* opacity: 1; */
+    /* color: white; */
+    /* width: 10vw; */
+    /* height: 5vh; */
+    /* height: 10vh; */
+    /* border-radius: 10px; */
+    /* box-shadow: 2px 3px 2px 2px; */
+    transition: .05s all ease-in-out;
+    font-size: 25px;
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+button img {
+    width: 70%;
+    height: 70%;
+    /* height: 100%; */
+    /* max-height: 150px; */
+    /* max-width: 150px; */
+    /* margin: 1vw; */
+    /* border: 2px solid red; */
+    /* opacity: 1; */
+}
+
+button:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    
+}
